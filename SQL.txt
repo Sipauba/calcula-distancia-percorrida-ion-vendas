@@ -1,0 +1,9 @@
+SELECT J.* FROM ionv_sync.IONVR_ROUTE_JOURNEY j
+WHERE j.codvendedor=9483 
+AND j.journey_date>='01-oct-2023' 
+ORDER BY j.journey_date, j.journey_type
+
+SELECT A.* FROM ionv_sync.IONVR_ROUTE_ATTENDANCES A 
+WHERE A.codvendedor=9483 
+AND  A.check_date>='01/10/2023' 
+ORDER BY A.check_date
