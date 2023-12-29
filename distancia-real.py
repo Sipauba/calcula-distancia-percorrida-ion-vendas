@@ -27,7 +27,7 @@ def calcular_distancia_bing_maps(api_key, origem, destino):
         print(f"Erro ao calcular a distância: {response.status_code}")
 
 # Substitua 'SUA_CHAVE_DE_API' pela sua chave de API da Bing Maps
-api_key = 'X'
+api_key = 'AqXXq_dKNGPf2OCsp3_32GH1zhRpddNKKJ4msNWPdwyk9wJfrRyC14ihDUIbhi4D'
 
 # Substitua 'latitude,longitude' pelos valores reais das coordenadas
 coordenadas_origem = '-3.807215564734376, -38.5838596181973'  # Exemplo: Casa Mondubim

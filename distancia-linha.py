@@ -24,8 +24,8 @@ def calcular_distancia_haversine(origem, destino):
     return distancia
 
 # Substitua 'latitude,longitude' pelos valores reais das coordenadas
-coordenadas_origem = '-3.8068818497080703, -38.583741917489846'  # Exemplo: Latitude e Longitude de Nova York
-coordenadas_destino = '-3.8448340666419027, -38.502476647934635'  # Exemplo: Latitude e Longitude de Los Angeles
+coordenadas_origem = '-3.724524, -38.526368'  # Exemplo: Latitude e Longitude de Nova York
+coordenadas_destino = '-3.809048, -38.602663'  # Exemplo: Latitude e Longitude de Los Angeles
 
 # Calcula a distância em linha reta
 distancia_linha_reta = calcular_distancia_haversine(coordenadas_origem, coordenadas_destino)
